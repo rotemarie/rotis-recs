@@ -1,0 +1,37 @@
+{
+  "name": "affiliate-links-site",
+  "version": "1.0.0",
+  "description": "A Next.js affiliate article and link library backed by Sanity CMS.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@portabletext/react": "latest",
+    "@sanity/vision": "latest",
+    "lucide-react": "latest",
+    "next": "latest",
+    "next-sanity": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "sanity": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  },
+  "keywords": [
+    "affiliate",
+    "nextjs",
+    "sanity",
+    "vercel"
+  ],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "module"
+}
