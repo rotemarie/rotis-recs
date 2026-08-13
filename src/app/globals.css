@@ -419,13 +419,16 @@ input {
   overflow: hidden;
   border-radius: 8px;
   background: var(--line);
+  display: flex;
+  justify-content: center;
 }
 
 .article-hero img {
-  width: 100%;
-  height: min(58vh, 560px);
-  min-height: 360px;
-  object-fit: cover;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: min(70vh, 720px);
+  object-fit: contain;
 }
 
 .article-meta {
@@ -767,9 +770,12 @@ input {
   }
 
   .feature-media,
-  .feature-media img,
-  .article-hero img {
+  .feature-media img {
     min-height: 300px;
+  }
+
+  .article-hero img {
+    max-height: 60vh;
   }
 
   .category-grid,
